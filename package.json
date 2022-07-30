@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "inscricao online",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "amavel",
+  "license": "ISC",
+  "dependencies": {
+    "blob-stream": "^0.1.3",
+    "cors": "^2.8.5",
+    "easyinvoice": "^2.3.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "html-pdf": "^3.0.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.19",
+    "pdf-creator-node": "^2.3.4",
+    "pdfkit": "^0.13.0",
+    "sequelize": "^6.21.3",
+    "sucrase": "^3.24.0"
+  }
+}
